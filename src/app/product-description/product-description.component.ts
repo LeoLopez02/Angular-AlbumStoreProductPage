@@ -8,7 +8,7 @@ import { Album } from "app/album";
   styleUrls: ["./product-description.component.css"],
 })
 export class ProductDescriptionComponent implements OnInit {
-  albumInfo: any;
+  albumInfo: Album;
 
   constructor(private _productService: ProductService) {}
 
